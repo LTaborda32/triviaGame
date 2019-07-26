@@ -1,0 +1,123 @@
+
+body{
+    background-color: black;
+    background-image: url(../images/Background-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-position-y: top;
+
+    
+}
+.box{
+    width: 1200px;
+    height: 750px;
+    border: 3px solid white;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50px;
+    background-image: url(../images/box_background.jpg)
+
+}
+
+h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#message{
+    background: white;
+    opacity: .75;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 30px;
+}
+
+#finalMessage{
+    background: white;
+    opacity: .75;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 30px;
+}
+
+.container #startBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  .container #startOverBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 100px;
+
+  }
+
+  h3{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background: white;
+    opacity: .75;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size:20px;
+  }
+
+  .thisChoice{
+      font-weight: bolder;
+      background: white;
+      opacity: .75;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 20px;
+  }
+
+
+  .timer{
+      background: white;
+      opacity: .75;
+      border-radius: 15px;
+      font-weight: bolder;
+      margin-left: 300px;
+      margin-right: 300px;
+      font-size: 30px;
+  }
+
+
+
+  
+
+  
+  
